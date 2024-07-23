@@ -1,1 +1,55 @@
 # RevisionJS
+
+- variables, data types (string , null , number , undefined , boolean , symbol , array , objects , set , map ), operators
+- Primitive & Non primitive
+- Mutable and Immutable
+- if-else, switch-case, loops
+- Function - declarations, expressions, arrow functions
+- Function - Pure Function , HOF
+- Array methods - map , filter , reduce (imp)
+- Function composition and currying
+- IIFEs , Function Parameters (Default , Rest)
+- Type casting (Explicit , Implicit)
+- Type Conversion vs Coercion
+- Error Handling - try-catch, throwing errors
+- Execution Context
+- Hoisting
+- Call Stack
+- Variable Scope - global , local , functional
+- var , let , const
+- constructor function
+- this keyword
+- Temporal Dead Zone
+- new keyword
+- call , apply , bind
+- Inheritance
+- prototype
+- Prototypal Inheritance
+- Async js - async , await
+- Callback , promise
+- Set timeout , set interval
+- fetch - GET , PUT , PATCH , POST , DELETE
+- Message Queue
+- Event Loop
+- Callback queue vs micro task queue
+- Closure
+- Recursion
+- Lexical Scope
+- Garbage Collection
+- JSON
+- `==`  , `===`  , Object . is
+- ES6 - const , import export , let/const, template literals, destructuring, default parameters, rest/spread operators
+- Iterator and Generators
+- Garbage Collections
+- Chrome Dev Tools
+- Polyfills (Very important)
+- Polyfills of Promise.all, Promise.any, Promise.race, Promise.finally, Bind, setInterval
+- DOM Manipulation
+- Event Handling
+- Browser API - Local Storage , session storage , cookies , geolocation api , index db
+- Class in js
+- Object Oriented Programming (OOP)
+- Debouncing/Throttling
+- Flatten Array/Flatten Object
+- ‘N’ Async Tasks in Series, Parallel
+- Traversing Nested Array/Objects
