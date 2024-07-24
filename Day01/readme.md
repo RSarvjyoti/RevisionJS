@@ -1,0 +1,4 @@
+- Introduction
+- Variables
+- Dynamic type and static type language
+- Datatype
