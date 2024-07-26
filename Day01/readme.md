@@ -1,4 +1,7 @@
 - Introduction
 - Variables
 - Dynamic type and static type language
-- Datatype
+- Datatype : 
+  - Primitives (value types): string, number, boolean, undefined, null, bigInt, symbol
+  - Non Primitives (reference types) : object, function, array, set, map
+
