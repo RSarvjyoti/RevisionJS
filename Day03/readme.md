@@ -1,0 +1,5 @@
+- Store by value Vs store by refrence
+- Arrow function
+- Object shorthand
+- Default Parameter in function
+- Rest and Spread
