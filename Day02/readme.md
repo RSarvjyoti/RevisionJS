@@ -1,0 +1,22 @@
+- Operators
+  - Comparison Operators
+     - Equality Operator
+     - Inequality Operator:
+  - Mathematical operators
+  - Relational operators
+  - Logical Operators
+  - Unary Operators
+- Conditional Statements
+- prefix & postfix
+- Type conversion
+  - Explicit (Typecasting) --> Number(val), Boolean(val), parseInt(String, redix), parseFloat(String), String(val), toString().
+  - Implicit (Coercion) --> Type coercion in JavaScript is the automatic or implicit conversion of values from one data type to another.
+- Tips for Effective Type Identification
+     - Use typeof for primitive types: It's great for identifying numbers, strings, booleans, and functions.
+     - Use Array.isArray for arrays: Since typeof will return "object" for arrays.
+     - Use instanceof for custom objects: It's useful for checking an object against a prototype or class.
+     - Use Object.prototype.toString for built-in objects: When you need to differentiate between various object types like Date, RegExp, etc.
+- The Edge Cases in Type Identification
+     - Arrays: Despite being a specialized kind of object, JavaScript's typeof will simply return "object" for an array.
+     - Objects: The typeof will return "object" for any object literal, but this doesn't help to distinguish between different kinds of objects.
+     - Null: One of the oldest JavaScript gotchas is that typeof null returns "object", which is misleading.
