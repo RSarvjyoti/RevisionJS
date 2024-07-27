@@ -118,3 +118,36 @@ const totalAmountPayble = (grossAmt, discount = 0) =>{
 
 console.log(totalAmountPayble(1000, 20)); // 980
 console.log(totalAmountPayble(100)) // 100
+
+
+// ******* Rest Operator **********
+
+const studentName = (one, two, ...rest) =>{
+    console.log(one, two, rest);
+}
+studentName("Airabano", "Sikha", "Sipali", "Sakshi", "Sivangi");
+
+// *************** Spread Operator ***************
+
+let numbers = [1,2,3,4,6,7,8,90,];
+
+console.log(`Spread Operator : ${numbers}`);
+
+// Activity 1: Write a function that takes in an array of numbers and returns the sum of all the numbers using the rest operator.
+
+let arrNum = (...rest) =>{
+  return rest.reduce((acc, curr) => acc + curr, 0);
+}
+
+console.log("All sum using rest Operator : " + arrNum(1,2,3));
+
+// Activity 2: Write a function that takes in two objects and merges them together using the spread operator. The function should return the merged object.
+
+let mergedObject = (obj1, obj2) =>{
+    return {...obj1, obj2};
+}
+
+const obj1 = {name : "abc", age : 20}
+const obj2 = {email : "abc@gmail.com", password : "122334"}
+
+console.log("Merged object : " + mergedObject(obj1, obj2));

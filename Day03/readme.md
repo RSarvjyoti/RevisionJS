@@ -3,3 +3,4 @@
 - Object shorthand
 - Default Parameter in function
 - Rest and Spread
+- Destructuring Arrays and Objects
